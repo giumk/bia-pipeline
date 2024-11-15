@@ -1,4 +1,4 @@
-from ubuntu:22.04
+FROM ubuntu:22.04
 WORKDIR /usr
 RUN apt update -y
 RUN apt install curl -y
