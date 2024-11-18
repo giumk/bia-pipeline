@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --loglevel=error
+RUN npm install --loglevel=error 
 
 COPY . .
 
